@@ -29,7 +29,7 @@ Answer: 4, missing_parenthesis
 
 > GPT-3.5-Turbo
 
-<img src="./stats/gpt_35_turbo/bug_in_the_code_stack_single_bug_test_gpt_35_turbo_result_500_to_16k.png" width="400">
+<img src="./stats/gpt_35_turbo/bug_in_the_code_stack_single_bug_test_gpt_35_turbo_result_500_to_16k.png" width="600">
 
 ### Notebooks
 
