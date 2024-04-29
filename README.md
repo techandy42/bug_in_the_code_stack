@@ -1,4 +1,4 @@
-# bug_in_the_code_stack
+# Bug In The Code Stack
 
 <img src="./media/bug_in_the_haystack_logo.png" width="100">
 
