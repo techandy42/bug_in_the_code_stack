@@ -1,0 +1,6 @@
+# This is for running Gemini Python script only
+python-dotenv
+numpy
+pandas
+tiktoken
+google-generativeai

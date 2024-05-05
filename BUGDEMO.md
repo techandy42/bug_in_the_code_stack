@@ -1,3 +1,7 @@
+# Bug Demo
+
+> Missing Parenthesis (Shorter Version of Input)
+
 ```python
 1 | def fahrenheit_to_celsius(fahrenheit):
 2 |   return (fahrenheit - 32) * 5.0/9.0

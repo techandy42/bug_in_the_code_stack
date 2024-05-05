@@ -27,14 +27,42 @@ Answer: 4, missing_parenthesis
 
 ### Results
 
+- *All models were evaluated on their latest versions.
+
+> GPT-4-Turbo
+
+<img src="./stats/gpt_4_turbo/bics_gpt_4_turbo_result.png" width="500"/>
+
 > GPT-3.5-Turbo
 
-<img src="./stats/gpt_35_turbo/single_bug_test_gpt_35_turbo_result.png" width="600">
+<img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
+
+> Claude 3 Opus
+
+<img src="./stats/claude_3_opus/bics_claude_3_opus_result.png" width="500"/>
+
+> Gemini-1.0-Pro
+
+<img src="./stats/gemini_10_pro/bics_gemini_10_pro_result.png" width="500"/>
+
+> Llama3-70B
+
+<img src="./stats/llama3_70b/bics_llama3_70b_result.png" width="500"/>
+
+> Command-R+
+
+<img src="./stats/command_r_plus/bics_command_r_plus_result.png" width="500"/>
 
 ### Notebooks
 
 - `notebooks/bug_in_the_code_stack_python_source_code_preprocessing.ipynb` contains Colab notebook for data processing.
 - `notebooks/bug_in_the_code_stack_experiment_openai.ipynb` contains Colab notebook for running the experiment on OpenAI models.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt4.ipynb` contains Colab notebook for running the experiment on GPT-4 w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt35.ipynb` contains Colab notebook for running the experiment on GPT-3.5 w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_anthropic_claude3.ipynb` contains Colab notebook for running the experiment on Claude 3 Opus w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_cohere_commandr.ipynb` contains Colab notebook for running the experiment on Command-R+ w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_meta_llama3.ipynb` contains Colab notebook for running the experiment on Llama3 70B w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_genai_gemini10.py` contains Python script for running the experiment on Gemini-1.0-Pro w/t Generative AI package. Make sure to run this locally (doesn't work on Colab).
 
 ### Dataset
 
