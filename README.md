@@ -29,21 +29,21 @@ Answer: 4, missing_parenthesis
 
 - *All models were evaluated on their latest versions.
 
+> Comparison (Target Depth @ 0.5)
+
+<img src="./stats/other/bics_agg_result_depth_050.png" width="500"/>
+
 > GPT-4-Turbo
 
 <img src="./stats/gpt_4_turbo/bics_gpt_4_turbo_result.png" width="500"/>
-
-> GPT-3.5-Turbo
-
-<img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
 
 > Claude 3 Opus
 
 <img src="./stats/claude_3_opus/bics_claude_3_opus_result.png" width="500"/>
 
-> Gemini-1.0-Pro
+> GPT-3.5-Turbo
 
-<img src="./stats/gemini_10_pro/bics_gemini_10_pro_result.png" width="500"/>
+<img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
 
 > Llama3-70B
 
@@ -52,6 +52,10 @@ Answer: 4, missing_parenthesis
 > Command-R+
 
 <img src="./stats/command_r_plus/bics_command_r_plus_result.png" width="500"/>
+
+> Gemini-1.0-Pro
+
+<img src="./stats/gemini_10_pro/bics_gemini_10_pro_result.png" width="500"/>
 
 ### Notebooks
 
