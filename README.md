@@ -33,6 +33,10 @@ Answer: 4, missing_parenthesis
 
 <img src="./stats/other/bics_agg_result_depth_050.png" width="500"/>
 
+> GPT-4o
+
+<img src="./stats/gpt_4o/bics_gpt_4o_result.png" width="500"/>
+
 > GPT-4-Turbo
 
 <img src="./stats/gpt_4_turbo/bics_gpt_4_turbo_result.png" width="500"/>
