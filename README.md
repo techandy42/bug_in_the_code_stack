@@ -45,6 +45,14 @@ Answer: 4, missing_parenthesis
 
 <img src="./stats/claude_3_opus/bics_claude_3_opus_result.png" width="500"/>
 
+> Gemini 1.5 Pro
+
+<img src="./stats/gemini_15_pro/bics_gemini_15_pro_result.png" width="500"/>
+
+> Gemini 1.5 Flash
+
+<img src="./stats/gemini_15_flash/bics_gemini_15_flash_result.png" width="500"/>
+
 > GPT-3.5-Turbo
 
 <img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
