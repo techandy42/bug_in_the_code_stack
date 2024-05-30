@@ -31,7 +31,7 @@ Answer: 4, missing_parenthesis
 
 > Comparison (Target Depth @ 0.5)
 
-<img src="./stats/other/results_with_gemini/bics_agg_depth_050_with_gemini_15_result.png" width="500"/>
+<img src="./stats/other/results_with_gemini_15/bics_agg_depth_050_with_gemini_15_result.png" width="500"/>
 
 > GPT-4o
 
