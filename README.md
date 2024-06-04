@@ -31,7 +31,7 @@ Answer: 4, missing_parenthesis
 
 > Comparison (Target Depth @ 0.5)
 
-<img src="./stats/other/results_with_gemini_15/bics_agg_depth_050_with_gemini_15_result.png" width="500"/>
+<img src="./stats/other/results_with_codestral_and_codeqwen15/bics_agg_depth_050_with_codestral_and_codeqwen15_result.png" width="500"/>
 
 > GPT-4o
 
@@ -57,6 +57,11 @@ Answer: 4, missing_parenthesis
 
 <img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
 
+> Codestral
+
+<img src="./stats/codestral/bics_codestral_result.png" width="500"/>
+
+
 > Llama3-70B
 
 <img src="./stats/llama3_70b/bics_llama3_70b_result.png" width="500"/>
@@ -69,6 +74,10 @@ Answer: 4, missing_parenthesis
 
 <img src="./stats/gemini_10_pro/bics_gemini_10_pro_result.png" width="500"/>
 
+> CodeQwen1.5 (Zero-Shot)
+
+<img src="./stats/codeqwen15_zero_shot/bics_codeqwen15_zero_shot_result.png" width="500"/>
+
 ### Notebooks
 
 - `notebooks/bug_in_the_code_stack_python_source_code_preprocessing.ipynb` contains Colab notebook for data processing.
@@ -78,7 +87,11 @@ Answer: 4, missing_parenthesis
 - `notebooks/bug_in_the_code_stack_experiment_litellm_anthropic_claude3.ipynb` contains Colab notebook for running the experiment on Claude 3 Opus w/t LiteLLM.
 - `notebooks/bug_in_the_code_stack_experiment_litellm_cohere_commandr.ipynb` contains Colab notebook for running the experiment on Command-R+ w/t LiteLLM.
 - `notebooks/bug_in_the_code_stack_experiment_litellm_meta_llama3.ipynb` contains Colab notebook for running the experiment on Llama3 70B w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_mistral_codestral.ipynb` contains Colab notebook for running the experiment on Mistral Codestral w/t LiteLLM
+- `notebooks/bug_in_the_code_stack_experiment_qwen_codeqwen_local.ipynb` contains Colab notebook for running the experiment on CodeQwen1.5 locally. Make sure to run this on Colab with A100 GPU.
 - `notebooks/bug_in_the_code_stack_experiment_genai_gemini10.py` contains Python script for running the experiment on Gemini-1.0-Pro w/t Generative AI package. Make sure to run this locally (doesn't work on Colab).
+- `notebooks/bics_helper_result_graphs.ipynb` contains helper functions to create beautiful graphs.
+- `notebooks/bics_result_analysis_graphs.ipynb` contains code to analyze the properties of codegen-focused models compared to larger, general-purpose models.
 
 ### Dataset
 
