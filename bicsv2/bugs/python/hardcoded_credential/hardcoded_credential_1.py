@@ -1,6 +1,6 @@
 import openai
 
-def ask_question(question):
+def ask_question_openai(question):
     openai.api_key = 'sk-1234567890abcdef1234567890abcdef'
     
     response = openai.Completion.create(

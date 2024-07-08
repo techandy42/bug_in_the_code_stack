@@ -1,7 +1,7 @@
 import os
 import anthropic
 
-def ask_question(question):
+def ask_question_antrophic(question):
     os.environ["ANTHROPIC_API_KEY"] = "sk-1234567890abcdef1234567890abcdef"
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 

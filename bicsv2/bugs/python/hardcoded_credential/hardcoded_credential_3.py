@@ -1,6 +1,6 @@
 import cohere
 
-def ask_question(question):
+def ask_question_cohere(question):
     cohere_api_key = "sk-1234567890abcdef1234567890abcdef"
     co = cohere.Client(cohere_api_key)
 
