@@ -31,49 +31,53 @@ Answer: 4, missing_parenthesis
 
 > Average Accuracy for Each Model (Exc. 16k Results)
 
-<img src="./stats/other/avg_acc_excluding_16k_11_models.png" width="500"/>
+<img src="./stats/other/avg_acc_excluding_16k_12_models.png" width="500"/>
 
 > 1. GPT-4o
 
 <img src="./stats/gpt_4o/bics_gpt_4o_result.png" width="500"/>
 
-> 2. GPT-4-Turbo
+> 2. GPT-4o Mini
+
+<img src="./stats/gpt_4o_mini/bics_gpt_4o_mini_result.png" width="500"/>
+
+> 3. GPT-4-Turbo
 
 <img src="./stats/gpt_4_turbo/bics_gpt_4_turbo_result.png" width="500"/>
 
-> 3. Claude-3.5 Sonnet
+> 4. Claude-3.5 Sonnet
 
 <img src="./stats/claude_35_sonnet/bics_claude_35_sonnet_result.png" width="500"/>
 
-> 4. Claude-3 Opus
+> 5. Claude-3 Opus
 
 <img src="./stats/claude_3_opus/bics_claude_3_opus_result.png" width="500"/>
 
-> 5. Gemini 1.5 Pro
+> 6. Gemini 1.5 Pro
 
 <img src="./stats/gemini_15_pro/bics_gemini_15_pro_result.png" width="500"/>
 
-> 6. Gemini 1.5 Flash
+> 7. Gemini 1.5 Flash
 
 <img src="./stats/gemini_15_flash/bics_gemini_15_flash_result.png" width="500"/>
 
-> 7. GPT-3.5-Turbo
+> 8. GPT-3.5-Turbo
 
 <img src="./stats/gpt_35_turbo/bics_gpt_35_turbo_result.png" width="500"/>
 
-> 8. Codestral
+> 9. Codestral
 
 <img src="./stats/codestral/bics_codestral_result.png" width="500"/>
 
-> 9. Llama3-70B
+> 10. Llama3-70B
 
 <img src="./stats/llama3_70b/bics_llama3_70b_result.png" width="500"/>
 
-> 10. Command-R+
+> 11. Command-R+
 
 <img src="./stats/command_r_plus/bics_command_r_plus_result.png" width="500"/>
 
-> 11. Gemini-1.0-Pro
+> 12. Gemini-1.0-Pro
 
 <img src="./stats/gemini_10_pro/bics_gemini_10_pro_result.png" width="500"/>
 
@@ -81,7 +85,9 @@ Answer: 4, missing_parenthesis
 
 - `notebooks/bug_in_the_code_stack_python_source_code_preprocessing.ipynb` contains Colab notebook for data processing.
 - `notebooks/bug_in_the_code_stack_experiment_openai.ipynb` contains Colab notebook for running the experiment on OpenAI models.
-- `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt4.ipynb` contains Colab notebook for running the experiment on GPT-4 w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt4_turbo.ipynb` contains Colab notebook for running the experiment on GPT-4-Turbo w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt4o.ipynb` contains Colab notebook for running the experiment on GPT-4o w/t LiteLLM.
+- `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt4o_mini.ipynb` contains Colab notebook for running the experiment on GPT-4o Mini w/t LiteLLM.
 - `notebooks/bug_in_the_code_stack_experiment_litellm_openai_gpt35.ipynb` contains Colab notebook for running the experiment on GPT-3.5 w/t LiteLLM.
 - `notebooks/bug_in_the_code_stack_experiment_litellm_anthropic_claude_35_sonnet.ipynb` contains Colab notebook for running the experiment on Claude-3.5 Sonnet w/t LiteLLM.
 - `notebooks/bug_in_the_code_stack_experiment_litellm_anthropic_claude_3_opus.ipynb` contains Colab notebook for running the experiment on Claude-3 Opus w/t LiteLLM.
